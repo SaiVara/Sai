@@ -11,7 +11,7 @@ public class Person {
 		this.Address = address;
 	}
 	public static void main(String []args) {
-		Person object=new Person("Vara","Male","+16047296957","Vancouver,Canada");
+		Person object=new Person("Vara","Male","+1234567","Vancouver,Canada");
 		System.out.println("Name of the person "+object.name);
 		System.out.println("Gender of the person is "+object.gender);
 		System.out.println("ContactNo: "+object.ContactNo+" ,Address "+object.Address);
